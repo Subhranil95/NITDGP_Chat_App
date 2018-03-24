@@ -1,0 +1,103 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title> Chat </title>
+</head>
+<body>
+	<!-- <div id = "div1">
+		<div id = "div3"></div>
+	</div>
+	<div id = "div2">
+		<div id = "div4"></div>
+	</div> -->
+
+	<div class="container-fluid" style="height: 100%">
+		<div class="row" style="height: 54%">
+			<section class="col-xs-12 col-sm-6" style="background-color: lightblue; width: 30%;">
+				<h1 align="center">Search User</h1>
+				<hr align="center" width="60%">
+				<form>
+					<div class="form-group">
+						<input type="text" name="search" id="search" class="form-control" placeholder="Search User">
+					</div>
+					<div class="form-group" align="center">				
+						<input  class="btn btn-info" type="submit"  value="Search" align="center">
+					</div>
+				</form>
+			</section>
+			<section class="col-xs-12 col-sm-6" style="width: 70%;">
+				<h1 align="center" style = "color: white">Profile</h1>
+				<hr align="center" width="60%">
+				<section class="col-xs-12 col-sm-6" style="width: 70%; ">
+					<div class="jumbotron jumbotron-fluid" style="border: 2px; border-style: solid; border-color: #75cebb">
+						<div class="container-fluid">
+							<p class="lead">
+								<p> <b> NAME: </b> ABC </p>
+								<p> <b> DESIGNATION: </b> Student </p> 
+							</p>
+						</div>
+					</div>
+				</section>
+				<section class="col-xs-12 col-sm-6" style="width: 30%; left-margin: 70%">
+					<div class="container-fluid" style="background-image: url('img1.jpg'); margin-top: 10%; margin-bottom: 10%; height: 150px; width:125px; border: 3px solid white">
+						<p class="lead" style="margin-top: 40%; text-align: center; color: white"> Profile Photo </p>
+					</div>
+				</section>
+
+			</section>
+		</div>
+		<div class="row" style="height: 50%">
+			<section class="col-xs-12 col-sm-6" style="background-color: lightblue ; width: 30%;">
+				<h1 align="center">Recent Conversations</h1>
+				<hr align="center" width="60%">
+				<form>
+					<div class="form-group" align="center">				
+						<input  class="btn form-control" type="submit"  value="Somesh Khandelia" align="center" style="border-radius: 25px; height: 50px; text-align: center;">
+					</div>
+					<div class="form-group" align="center">				
+						<input  class="btn form-control" type="submit"  value="Subhranil Mondal" align="center" style="border-radius: 25px; height: 50px; text-align: center;">
+					</div>
+					<div class="form-group" align="center">				
+						<input  class="btn form-control" type="submit"  value="Rahul Modi" align="center" style="border-radius: 25px; height: 50px; text-align: center;">
+					</div>
+					<div class="form-group" align="center">				
+						<input  class="btn form-control" type="submit"  value="Prashant Shah" align="center" style="border-radius: 25px; height: 50px; text-align: center;">
+					</div>
+					<div class="form-group" align="center">				
+						<input  class="btn form-control" type="submit"  value="Sayantan Gupta" align="center" style="border-radius: 25px; height: 50px; text-align: center;">
+					</div>
+				</form>
+			</section>
+			<section class="col-xs-12 col-sm-6" style="background-image: url('img2.jpg');  width: 70%;">
+				<h1 align="center" style = "color: white">Chat Interface</h1>
+				<hr align="center" width="60%">
+				
+				<form>
+					<div class='container-fluid'>
+						<div class="form-group" style="margin-top: 20px;">
+							<input type="text" id="received_text" name="received_text" placeholder="Message Received here" style="height: 50px; width: 60%; border-radius: 25px; border-color: green" readonly>
+						</div>
+						<div class="form-group" style="margin-top: 20px;" align="right">
+							<input type="text" id="sent_text" name="sent_text" placeholder="You sent this message" style="height: 50px; width: 60%; 
+								border-radius: 25px; border-color: green" readonly>
+						</div>		
+					</div>
+					
+					<div class="form-group" style="margin-top: 25px">
+						<input type="text" id="type_chat" name="type_chat" class="form-control" placeholder="Type Here" style="border-color: green">
+					</div>	
+					<div class="form-group" align="center">				
+						<input  class="btn btn-info" type="submit"  value="Send" align="center">
+					</div>
+				</form>
+
+			</section>
+		</div>
+
+	</div>
+		
+</body>
+
+<script src="js/bootstrap.js"></script>
+</html>
